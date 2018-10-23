@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [The test Suite for parallel Testing]" parallel="methods">
+  <test thread-count="3" name="This is Testing for ChromeBroswer(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="RoughWork.SliderTesting">
+        <methods>
+          <include name="OpeningBrowser"/>
+          <include name="ClosingBroswer"/>
+          <include name="GetURL"/>
+        </methods>
+      </class> <!-- RoughWork.SliderTesting -->
+    </classes>
+  </test> <!-- This is Testing for ChromeBroswer(failed) -->
+</suite> <!-- Failed suite [The test Suite for parallel Testing] -->

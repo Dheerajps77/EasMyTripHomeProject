@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [search Hotel]">
+  <test thread-count="5" name="search Hotel(failed)">
+    <classes>
+      <class name="com.QA.EasMyTrip.TestClass.SearchHotelClass">
+        <methods>
+          <include name="ClosingBroswer"/>
+          <include name="OpeningBrowser"/>
+          <include name="EnterCityName"/>
+        </methods>
+      </class> <!-- com.QA.EasMyTrip.TestClass.SearchHotelClass -->
+    </classes>
+  </test> <!-- search Hotel(failed) -->
+</suite> <!-- Failed suite [search Hotel] -->
